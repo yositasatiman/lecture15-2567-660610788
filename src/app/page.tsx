@@ -64,7 +64,7 @@ export default function Home() {
         <Space h="lg" />
 
         {/* Form */}
-        <form onSubmit={form.onSubmit((values) => console.log(values))}>
+        <form onSubmit={form.onSubmit(() => alert('See you at CMU Marathon 2024'))}>
         <Stack gap="sm">
           <Group grow align="start">
             <TextInput label="First Name" {...form.getInputProps('firstName')}/>
